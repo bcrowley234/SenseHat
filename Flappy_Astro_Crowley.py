@@ -76,5 +76,5 @@ while not game_over:
           game_over = True
       sleep(1)
 
-sense.show_message('You Failed')
+sense.show_message("You Failed", text_colour=(255, 255, 0))
     
